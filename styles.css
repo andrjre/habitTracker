@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family:monospace;
+    color: aliceblue;
+}
+#top{
+    display:flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+body{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 22), rgb(48, 0, 48));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    border-style:solid;
+    border-radius: 20px;
+    border-color: white;
+    height: em;
+    padding: 2em;
+}
