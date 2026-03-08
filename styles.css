@@ -14,6 +14,14 @@
     width: 100px;
     filter: invert(1);
 }
+.small-icon{
+    width:35px;
+    filter: invert(1);
+}
+.small-icon:hover{
+    filter: invert(0.5);
+    cursor: pointer;
+}
 button{
     border:none;
     cursor: pointer;
@@ -33,10 +41,24 @@ body{
 }
 .box{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    box-sizing:border-box;
+    flex-direction: row;
+    align-items: center;
     border-style:solid;
     border-radius: 20px;
     border-color: white;
     height: em;
-    padding: 2em;
+    padding: 1em;
+    gap:1em;
+}
+.emoji{
+    font-size: 35px;
+    margin: 0;
+}
+#task-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
 }
