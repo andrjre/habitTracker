@@ -23,12 +23,12 @@
 .small-icon{
     width:35px;
     filter: invert(1);
-    transition:ease-in-out 0.5s;
+    transition:ease-in-out 0.1s;
 }
 .small-icon:hover{
     filter: invert(0.5);
     cursor: pointer;
-    transform: rotate(20deg);
+    transform: scale(1.2) rotate(10deg);
 
 }
 button{
@@ -74,10 +74,14 @@ body{
 #create{
     display: flex;
     justify-content: center;
-    transition:ease-in-out 0.5s;
+    transition:ease-in-out 0.2s;
+    background-color: rgb(2, 2, 38);
 }
 #create:hover{
     background-color: green;
     cursor: pointer;
-
+}
+#plus{
+    width:35px;
+    filter: invert(1);
 }
